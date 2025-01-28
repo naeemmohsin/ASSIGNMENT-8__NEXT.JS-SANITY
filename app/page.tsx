@@ -12,7 +12,7 @@ const data:dtype[]=await client.fetch(query)
 // console.log(data);
 
   return (
-    <div>
+    <div className=' pl-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  '>
     {data.map((data:dtype)=>(
     <Hero data={data} key={data.slug}/>
     ))}

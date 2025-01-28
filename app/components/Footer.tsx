@@ -1,11 +1,11 @@
 import React from 'react'
-
+import Image from 'next/image'
 const Footer = () => {
   return (
     <div>
-        <footer className="text-gray-600 body-font">
+        <footer className="bg-green-300 text-gray-600 body-font">
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-    <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+    {/* <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -17,20 +17,19 @@ const Footer = () => {
         viewBox="0 0 24 24"
       >
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-      </svg>
-      <span className="ml-3 text-xl">Tailblocks</span>
+      </svg> */}
+      {/* <span className="ml-3 text-xl">Tailblocks</span>
     </a>
     <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-      © 2020 Tailblocks —
-      <a
-        href="https://twitter.com/knyttneve"
+      <Image
+        src={'/logo.9ff76f62.png'}
         className="text-gray-600 ml-1"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        @knyttneve
-      </a>
-    </p>
+        alt='logo'
+        width={20}
+        height={20}
+      />
+      
+    </p> */}
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <a className="text-gray-500">
         <svg
